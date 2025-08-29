@@ -59,12 +59,10 @@ ul {
 
 .profile-float {
   float: right;
-  max-width: 200px;   /* 限制最大宽度 */
-  width: 200px;       /* 固定宽度 */
-  height: auto;       /* 高度自适应比例 */
-  border-radius: 50%;
-  margin: 0 0 20px 20px;
-  object-fit: cover;  /* 裁切填充，保证圆形好看 */
-  display: block;     /* 避免和行内样式冲突 */
+  display: block;
+  width: 450px;     /* 固定宽度，你可以改成 200 / 250 等 */
+  height: auto;     /* 高度自适应，保持比例 */
+  margin: 0 0 20px 20px;  /* 左边和下方留点空隙 */
+  object-fit: contain;    /* 不裁剪，完整显示你的图 */
 }
 
