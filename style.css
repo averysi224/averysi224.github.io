@@ -66,3 +66,20 @@ ul {
   object-fit: contain;    /* 不裁剪，完整显示你的图 */
 }
 
+.bio-container {
+  display: flex;
+  align-items: flex-end;  /* 底部对齐 */
+  justify-content: space-between;
+  gap: 20px;              /* 左右留点间距 */
+}
+
+.bio-text {
+  flex: 1;   /* 占据剩余空间 */
+}
+
+.profile-pic {
+  width: 899px;  /* 你可以调小/调大 */
+  height: auto;
+  object-fit: contain;
+}
+
