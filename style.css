@@ -90,5 +90,5 @@ ul {
   height: auto;           /* 按比例自适应高度 */
   object-fit: contain;    /* 完整显示，不裁剪 */
   border-radius: 0;       /* 防止被主题加圆角 */
-  margin-right: 20px;  
+  margin-right: 40px;  
 }
