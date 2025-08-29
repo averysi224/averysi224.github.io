@@ -33,3 +33,25 @@ a:hover {
 ul {
   padding-left: 1.2rem;
 }
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.pub-thumb {
+  width: 80px;   /* adjust size as needed */
+  height: auto;
+  margin-right: 15px;
+  border-radius: 6px;  /* optional: rounded corners */
+}
+
+.pub-text {
+  flex: 1;
+}
