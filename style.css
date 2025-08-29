@@ -68,18 +68,16 @@ ul {
 
 .bio-container {
   display: flex;
-  align-items: flex-end;  /* 底部对齐 */
-  justify-content: space-between;
-  gap: 20px;              /* 左右留点间距 */
+  align-items: flex-end;   /* 关键：让子元素底部对齐 */
+  gap: 20px;
 }
 
 .bio-text {
-  flex: 1;   /* 占据剩余空间 */
+  flex: 1;
 }
 
 .profile-pic {
-  width: 899px;  /* 你可以调小/调大 */
+  width: 899px;   /* 照片大小随便你定 */
   height: auto;
   object-fit: contain;
 }
-
