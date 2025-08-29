@@ -59,8 +59,8 @@ ul {
 
 .profile-float {
   float: right;
-  width: 450px;    /* 可以改大或改小 */
-  height: 316px;
+  width: 225px;    /* 可以改大或改小 */
+  height: 158px;
   border-radius: 50%;
   margin: 0 0 20px 20px;  /* 给文字留点空隙 */
   object-fit: cover;
