@@ -77,7 +77,7 @@ ul {
 }
 
 .profile-pic {
-  width: 899px;   /* 照片大小随便你定 */
+  width: 450px;   /* 照片大小随便你定 */
   height: auto;
   object-fit: contain;
 }
