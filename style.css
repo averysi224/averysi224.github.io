@@ -85,8 +85,8 @@ ul {
 
 /* 右侧图片：固定小尺寸，保持原始矩形，不裁剪不拉伸 */
 #bio img.profile-pic {
-  flex: 0 0 450px;        /* 固定列宽，按需改 280/320/360 等 */
-  width: 450px;           /* 显式宽度 */
+  flex: 0 0 675px;        /* 固定列宽，按需改 280/320/360 等 */
+  width: 675px;           /* 显式宽度 */
   height: auto;           /* 按比例自适应高度 */
   object-fit: contain;    /* 完整显示，不裁剪 */
   border-radius: 0;       /* 防止被主题加圆角 */
