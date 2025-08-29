@@ -59,9 +59,12 @@ ul {
 
 .profile-float {
   float: right;
-  width: 225px;    /* 可以改大或改小 */
-  height: 158px;
+  max-width: 200px;   /* 限制最大宽度 */
+  width: 200px;       /* 固定宽度 */
+  height: auto;       /* 高度自适应比例 */
   border-radius: 50%;
-  margin: 0 0 20px 20px;  /* 给文字留点空隙 */
-  object-fit: cover;
+  margin: 0 0 20px 20px;
+  object-fit: cover;  /* 裁切填充，保证圆形好看 */
+  display: block;     /* 避免和行内样式冲突 */
 }
+
